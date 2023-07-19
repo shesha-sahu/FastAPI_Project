@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get('/')
 def root():
-     return {"Data": "Check endpoint getting successfuly"}
+     return {"Data": "Check endpoint hit successfuly"}
 
 class Person(BaseModel):
     
