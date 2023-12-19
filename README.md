@@ -16,12 +16,12 @@ Start the development server:
   The server will start running on http://localhost:8000/
 
 API endpoints:
-  GET /: Check if the API is running.
-  GET /person/{p_id}: Retrieve a person's details by ID.
-  GET /search: Search for people using filters.
-  POST /addperson: Add a new person to the list.
-  PUT /changePerson: Update details of an existing person.
-  DELETE /deleteperson/{p_id}: Delete a person from the list by ID.
+GET /: Check if the API is running.
+GET /person/{p_id}: Retrieve a person's details by ID.
+GET /search: Search for people using filters.
+POST /addperson: Add a new person to the list.
+PUT /changePerson: Update details of an existing person.
+DELETE /deleteperson/{p_id}: Delete a person from the list by ID.
 
 
 
