@@ -1,5 +1,12 @@
 # PersonRegistryAPI
-This project is a CRUD (Create, Read, Update, Delete) application developed using the FastAPI framework. It provides a set of API endpoints to perform operations on the specified resources.
+Objective :
+The objective of this FastAPI project is to create a robust API for managing a database of individual records. The primary goals are:
+
+CRUD Operations: Implement endpoints for Create, Read, Update, and Delete operations on individual records representing people stored in a JSON file.
+
+Search Functionality: Enable filtering by age and name, allowing users to search for specific individuals or groups within the stored data.
+
+Data Persistence: Utilize a JSON file (people.json) to persistently store and retrieve individual records, ensuring data consistency across API sessions.
 
 Clone the repository:
   git clone https://github.com/your-username/project-name.git
